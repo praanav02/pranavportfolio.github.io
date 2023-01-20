@@ -1,0 +1,187 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "My name is Pranav Uppiliappan, and I am a student at UCSB interested in Computer Science and Economics. I am looking for internship opportunities that best leverage my experience to gain new and critical skills in today's dynamic environment. Please scroll down to check out some of my projects and experiences. Also, click right below to check out recent tech articles (refreshed every day automatically).",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Resume",
+        "startDate": "2022",
+        "description":"Attached below is my resume"
+        ,
+        "images": [
+          "https://www.theladders.com/wp-content/uploads/fouraudiences-resume-800x450.png",
+          "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png"
+          
+        ],
+        "url": "https://elasticbeanstalk-us-east-1-876063799986.s3.us-east-1.amazonaws.com/PranavUppiliappanResume.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLWVhc3QtMiJIMEYCIQCY2omnbAFknM2uJaxlZ%2FdrumDG6cz9%2Fn%2FqVSCiXKxQAwIhALKk56aRT4eE7CGqfLeSdXopsVQFLtOkM%2BIshkHFBf1CKu0CCJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMODc2MDYzNzk5OTg2Igw4yp17%2BO1TANhiYWcqwQL49hC1Us1slUiI4HgqmEukLIA0DsA8mxkSansivcZb%2FE%2Bc%2F%2BLMhi0mc18LvpVVoLQfmqrx8xKB%2BrU2hElXcApdGaDUZy7edptPIp869eCEuwlIM28MV2TI%2BRvbP%2F7PdyMLVZ5N77gIttZoW8hB0AQmmpmppoZc7GGupZ3Yqoyycftaw4TXc2WSZkAveuLPnCAhZhdWYyVCs85O8HIrf3vqPywX3%2FUNgLE56XS3z%2FkGjkTqOsU0Bjdn%2FLGq3vOBIqWp65dOJtgIw%2F0bCWJa%2FjAJzxUqL0%2FTVkDX3vlHLaVFcJAJ7IXHZ3ngj2APgLkZoDiRO5%2BQWY3pPERvGGjxatgkKnVWdrOSnvv8sDb%2FJKGMXl%2Bg1AGehuODY0W8XL1LZp4ZgkwBOG7Z7KhtSgAg5qDgTf0pV0Q9fppsR58uJr%2FTOiUwrMCsngY6sgLy0IuKBIt%2ByYtxDIt9s%2Fou9yrm%2Fx6zwplQ5Ng%2FRkJMnrM%2BTTHl%2FmcnSQHrojIlzd1kqIT4jhZ4aUu410JDohq6EXVNX2NWhDXtxgAtRaLqAWiKAvpptQ%2FhFopApkT60V6hF3rxiNgxbKr9ErabY0AFyo6%2Bb6DufS7%2F4aVpxRylPuRQI47IpIxAeyNTriAY8WggRH%2FRT4Pj7K2QJWwuloj8IEytQnCx6N3AsZXFhrjoSCscwL8mB21%2FeYs7mDh4IXktZR%2Fb7OMRC8hXO0BDkzZGaM9uMg8CvOOaHe54hFgpMtnND%2FBxeTiioi1AbShhAnJLVB19mtaAHhoGcaNcI%2FwKF5TUMgt6J0rDh0Io%2FyF7mnYgEz%2FN2zPPWbjkhgdtvG7juv8n568UoM9CZZCdoIL%2FIis%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230120T232216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA4X6LYXKZHXMHE76J%2F20230120%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c791b19d5e5a91add5819b1f98948bab7ec778c808985f396cf76ffa23ed4038",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Spring REST API for SP500 data",
+        "startDate": "2021",
+        "description":"This project was developed predominantly with Java, Python, and utlized the Spring Framework. The project was used by over 300 Reddit users in a popular finance subreddit. Using Java, I developed a REST API with the Spring framework. The REST API handles HTTP requests with pre-defined routes. URL errors and capitalization mishaps are handled through the framework, which returns JSON data to the user based on the requested parameters. I have always been fascinated by the Stock Market and the vast complexities in scaled businesses. Data visualization of these large-scale businesses can have an enormous impact on the ability to predict future business prospects. Although it does not encapsulate everything important in businesses, such as intangibles, this REST API (with data of Cash-flow Statement History, Symbol, Quarterly Balance Sheet History, Financials, Income Statement History, Quote Type, Quarterly Income Statement History, Quarterly Cash-flow Statement History, Summary Details, Earnings, Page Views, Price, Balance Sheet History), will meet many of your technical data requirements in the Stock Market. The data in the backend was collected through Python. The collection utilized BeautifulSoup, URLLib, and Requests to scrape web data and recursively crawl for information. Further packages were utilized to collect information from SEC forms. Furthermore, this project is hosted on AWS Elastic Beanstalk, which creates EC2 instances and uses a load balancer to handle requests and auto-scales. The data is stored in DynamoDb, which is a NoSQL database. This program does not currently Auto-Scale because it runs on the AWS Free Tier; however, once enabled, it scales extensively as EC2 instances are added."
+        ,
+        "images": [
+          "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/269757833_4570037896366873_6631612107011390481_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iC4Se7ktfCwAX9yf-ur&tn=oN6OCbHXFYqDQAk_&_nc_ht=scontent-lax3-1.xx&oh=00_AfCkefOYLhJ6pqVzok-5XuyXgRookWpFMshYYdcFQVBDTQ&oe=63CF8E7F",
+          "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png"
+          
+        ],
+        "url": "http://stockapi-env.eba-hnvh89ky.us-east-1.elasticbeanstalk.com/",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Machine Learning Chord Progression Generator",
+        "startDate": "2022",
+        "description":"Who doesn't LOVE music? I have been involved in music through Classical Carnatic Indian music for over 10 years. In 2022, I began experimenting extensively with the guitar. One of the most important aspect of playing songs on the guitar or any instrument is playing different chord patterns. I started playing with an online chord progression generator, but realized that the chords were entirely randomized and had no sense of creativity. The creativity is within the artist, so I created a chord progression generator in python, using a basic machine learning algorithm (without libraries), which randomizes chords initially and then optimizes chord progressions based on the moods of chords that the user is likely to enjoy. The algorithm generates feedback about the chord progressions that the user liked or disliked to optimize results. This project highlighted one of my favorite parts of computer science: the sheer magnitude of the applications it has. It feels incredible to combine your passions to learn and grow!!!",
+        "images": [
+          "https://images.unsplash.com/photo-1605020420620-20c943cc4669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+        ],
+        "url": "https://github.com/anacondamaster97/ChordProgressionGenerator",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+          
+        ]
+      },
+      {
+        "title": "Monte Carlo Options Trading Algorithm",
+        "startDate": "2021",
+        "description":"Request to email for access. When I learned that the global derivatives market had a notional value of 1 quadrillion dollars, my mind was blown, so I decided to dig deeper to understand this market. While learning about these products, I realized most of them were not accessible to most market participants; however, options, a derivative of stocks, were accessible. I learned how options are priced through two algorithmic models, the Binary and Black-Scholes pricing algorithms. Using these algorithms and an understanding of options strategies such as Iron Condor, Credit Spreads, Synthetic Calls, etc, I used Monte Carlo random sampling simulations to predict the profitability of trades based on market inefficiencies.",
+        "images": [
+          "https://miro.medium.com/max/1400/1*zeE59zfjRJmIngwvJsvMRQ.png"
+        ],
+        "url": "mailto:pranavuppiliappan@gmail.com",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
+          }
+          
+        ]
+      },
+      {
+        "title": "Flask REST API",
+        "startDate": "2022",
+        "description": "Request to email for access. I was researching microservices in python when I came across Flask and Django. After doing research on both microservices and weighing the pros and cons, I decided that Flask was a fantastic microservice that came with highly scalable components because of its ability to endlessly horizontally scale. I was also impressed that large companies like Reddit and Netflix, use Flask, which further persuaded me. Flask does not scale well in production environments, so I used the standalone WSGI container Gunicorn. I decided to use this method to further understand the inner workings of Flask and microservices in general. This project was Dockerized so it can be placed on cloud computing instances because I did not want to take my project to the Stone Age.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg"
+        ],
+        "url": "mailto:pranavuppiliappan@gmail.com",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "Solidity Multi-Purpose Escrow Smart-Contract",
+        "startDate": "2022",
+        "description": "Request to email for access. WHAT THE HECK IS CRYPTO? My first exposure to cryptocurrency was Bitcoin. What followed was a plethora of scam tokens that I believe were despicable. I looked past this barrier to explore cryptocurrencies and found Ethereum and Polygon, as well as the programming language Solidity. At first, Solidity was a bit challenging; however, it became much easier because the syntax was similar to C++ and Java, two programming languages I have experience in. I realized the incredible opportunity that smart contracts. Since then, I built a smart contract that works similar to an escrow. The smart contract is used to validate transactions efficiently. An application of this software is the transfer of assets such as homes. I cannot wait to see where this journey goes!",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg"
+        ],
+        "url": "mailto:pranavuppiliappan@gmail.com",
+        "technologies": [
+          {
+            "class": "devicon-solidity-plain",
+            "name": "Solidity"
+          },
+          {
+            "class": "devicon-polygon-plain",
+            "name": "Polygon"
+          }
+        ]
+      }
+    ],
+
+    "experience": [
+      {
+        "company": "PRAGNYA (non-profit)",
+        "title": "Head of Marketing and Finance and Radio Show Host",
+        "years": "10.2018 - 03.2020",
+        "mainTech": [
+          "Marketing and Finance"
+        ],
+        "technologies": [
+          "Volunteer work with neurodiverse members",
+          "Marketing and Finance",
+          "Radio Show Host on Politics"
+        ]
+      },
+      {
+        "company": "IT Seers",
+        "title": "Software Engineering Intern",
+        "years": "06.2019 - 08.2019",
+        "mainTech": [
+          "Python"
+        ],
+        "technologies": [
+          "Python",
+          "Git",
+          "BeautifulSoup+URLlib",
+          "Web Crawling"
+        ]
+      },
+      {
+        "company": "Hindu Mission Hospital",
+        "title": "Technology/Management Intern",
+        "years": "06.2018 - 08.2018",
+        "mainTech": [
+          "Python","Excel", "Management"
+        ],
+        "technologies": [
+          "Awarded by Honorary Secretary for distinguished work",
+          "Volunteering for underserved individuals",
+          "Used Tamil (South Indian Language) to communicate in India"
+        ]
+      }
+    ]
+  }
